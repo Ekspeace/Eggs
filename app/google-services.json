@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "863443128502",
+    "project_id": "eggs-25655",
+    "storage_bucket": "eggs-25655.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:863443128502:android:de917dfd604f78f3695617",
+        "android_client_info": {
+          "package_name": "com.ekspeace.eggs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "863443128502-b2uflb4dj2dqhfa9ucg8bh91kkdcofta.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB6SAzX68s-0ZG9f2Nn_TpZr18WwNtPa38"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "863443128502-b2uflb4dj2dqhfa9ucg8bh91kkdcofta.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

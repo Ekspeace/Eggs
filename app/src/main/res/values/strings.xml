@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Eggs</string>  <!-- TODO: Remove or change this placeholder text -->
+    <string name="drawerOpen">drawerOpen</string>
+    <string name="drawerClose">drawerClose</string>
+    <string name="about">Welcome to Eggs Store, your number one source for quality eggs. We\'re dedicated to giving you the very best of eggs, with a focus on dependability, customer service and uniqueness. We serve customers all over South Africa and we are thrilled to be a part of the  quirky, eco-friendly, fair trade wing of the eggs industry.<br/><br/>\n\n We hope you enjoy our products as much as we enjoy offering them to you. If you have any questions or comments, please don\'t hesitate to contact us.</string>
+    <string name="contact_address">773 Dickens St <br/>\nSprings<br/>\n Gauteng <br/>\n1568 <br/>\n083 917 9259</string>
+
+</resources>

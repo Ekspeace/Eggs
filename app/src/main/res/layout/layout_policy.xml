@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.core.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:id="@+id/privacy_policy_layout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="12dp"
+            android:background="@color/white"
+            android:orientation="vertical"
+            android:padding="8dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/lucida_sans"
+                android:text="APPLICATION PRIVACY POLICY"
+                android:textColor="@color/brown_700"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lucida_sans"
+                android:text="Eggs Pty Ltd"
+                android:textColor="@color/brown_700"
+                android:textSize="13sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lucida_sans"
+                android:text="We respect your right to privacy and is committed to safeguarding the privacy of our customers and mobile application users. We adhere to the National Privacy Principles established by the Protection of Personal Information Act .This policy sets out how we collect and treat your personal information."
+                android:textColor="@color/brown_700"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lucida_sans"
+                android:text="'Personal information' is information we hold which is identifiable as being about you."
+                android:textColor="@color/brown_700"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/lucida_sans"
+                android:text="Collection of personal information"
+                android:textColor="@color/brown_700"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lucida_sans"
+                android:text="Eggs Pty Ltd will receive and store personal information you enter onto our mobile application (Eggs), provide to us directly or give to us in other forms. "
+                android:textColor="@color/brown_700"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lucida_sans"
+                android:text="You may provide basic information such as your name and email address to enable us to send information, provide updates on our services."
+                android:textColor="@color/brown_700"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/lucida_sans"
+                android:text="Use of your personal information "
+                android:textColor="@color/brown_700"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lucida_sans"
+                android:text="Eggs may use personal information collected from you to provide you with information, updates and our services. We may also make you aware of new and additional products, services and opportunities available to you. We may use your personal information to improve our products and services and better understand your needs."
+                android:textColor="@color/brown_700"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/lucida_sans"
+                android:text="Disclosure of your personal information"
+                android:textColor="@color/brown_700"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lucida_sans"
+                android:text="We may disclose your personal information to any of our employees, officers, insurers, professional advisers, agents, suppliers or subcontractors insofar as reasonably necessary for the purposes set out in this Policy. Personal information is only supplied to a third party when it is required for the delivery of our services"
+                android:textColor="@color/brown_700"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/lucida_sans"
+                android:text="Op out right"
+                android:textColor="@color/brown_700"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lucida_sans"
+                android:text="You can stop all collection of information by the Application easily by uninstalling the Application. You may use the standard uninstall processes as may be available as part of your mobile device or via the mobile application marketplace or network. You can also request to opt-out via email, at Info@eggs.com."
+                android:textColor="@color/brown_700"
+                android:textSize="12sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:fontFamily="@font/lucida_sans"
+                android:text="Changes to Privacy Policy"
+                android:textColor="@color/brown_700"
+                android:textSize="12sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="@font/lucida_sans"
+                android:text="Please be aware that we may change this Privacy Policy in the future. We may modify this Policy at any time, in our sole discretion and all modifications will be effective immediately upon our posting of the modifications on our mobile application. Please check back from time to time to review our Privacy Policy."
+                android:textColor="@color/brown_700"
+                android:textSize="12sp" />
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/policy_close"
+                android:layout_width="150dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center"
+                android:layout_margin="15dp"
+                android:background="@drawable/button_view"
+                android:fontFamily="@font/cooper"
+                android:text="Close"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:theme="@style/buttonColor" />
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

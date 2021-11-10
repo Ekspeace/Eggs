@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/brown_500"
+    tools:context=".Fragment.LoginFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/login_email_et"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:drawableStart="@drawable/email"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="10dp"
+            android:fontFamily="@font/lucida_sans"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="@color/brown_700"
+            android:textColorHint="@color/grey"
+            android:textSize="12sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/login_password_et"
+            android:layout_width="280dp"
+            android:layout_height="wrap_content"
+            android:hint="Password"
+            android:textColorHint="@color/grey"
+            android:textColor="@color/brown_700"
+            android:drawableStart="@drawable/lock"
+            android:drawablePadding="5dp"
+            android:layout_marginTop="20dp"
+            android:fontFamily="@font/lucida_sans"
+            android:textSize="12sp"
+            android:inputType="textPassword"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/login_email_et" />
+
+        <CheckBox
+            android:id="@+id/login_remember_cb"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/lucida_sans"
+            android:text="Remember me"
+            android:textColor="@color/brown_700"
+            android:textSize="12sp"
+            android:layout_marginTop="20dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/login_password_et" />
+
+        <TextView
+            android:id="@+id/login_forgot_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forgot Password?"
+            android:textColor="@color/brown_700"
+            android:textSize="12sp"
+            android:fontFamily="@font/lucida_sans"
+            android:layout_marginTop="10dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/login_remember_cb" />
+
+
+        <Button
+            android:id="@+id/login_btn"
+            android:layout_width="173dp"
+            android:layout_height="35dp"
+            android:background="@drawable/button_view"
+            android:fontFamily="@font/cooper"
+            android:text="login"
+            android:textColor="@color/white"
+            android:textSize="12sp"
+            android:theme="@style/buttonColor"
+            android:layout_marginTop="30dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/login_forgot_password" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>
